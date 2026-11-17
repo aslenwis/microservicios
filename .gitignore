@@ -7,3 +7,7 @@ mysql-producto/
 target/
 .idea/
 *.iml
+
+# Postman (configuración local)
+.postman/
+postman/
