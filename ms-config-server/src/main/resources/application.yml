@@ -12,6 +12,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/TU_USUARIO/TU_REPOSITORIO.git   # <- cambiar por tu repo
+          uri: https://github.com/aslenwis/microservicios
           searchPaths: config-data
           default-label: main

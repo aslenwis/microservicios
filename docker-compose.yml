@@ -1,6 +1,6 @@
 # Compose para la guía ms-catalogo: coincide con el config-data del repo del profesor
 # (jdbc:postgresql://localhost:5433/ms_catalogo, usuario postgres, clave 12345678)
-# MySQL para ms-producto-service: jdbc:mysql://localhost:3306/ms_producto, usuario root, clave 12345678
+# MySQL para ms-producto-service: jdbc:mysql://localhost:3307/ms_producto, usuario root, clave 12345678
 
 services:
   postgres-catalogo:
@@ -35,7 +35,7 @@ services:
     container_name: mysql-producto
     restart: always
     ports:
-      - 3306:3306          # host 3306 -> contenedor 3306
+      - 3307:3306          # host 3307 -> contenedor 3306 (3306 lo usa tu MySQL local)
     environment:
       - MYSQL_ROOT_PASSWORD=12345678
       - MYSQL_DATABASE=ms_producto
