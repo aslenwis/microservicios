@@ -1,0 +1,9 @@
+# Datos de los contenedores Docker (no se suben a GitHub)
+postgres-catalogo/
+pgadmin-catalogo/
+mysql-producto/
+
+# Compilados y archivos del IDE
+target/
+.idea/
+*.iml
